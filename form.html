@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <table border="1" cellpadding="0" cellspacing="0">
+        <tr height="10px">
+            <td colspan="3" align="center">
+                <h2>Login</h2>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="user">Username</label></td>
+            <td>:</td>
+            <td><input type="text" name="user" id="user" placeholder="Username" required></td>
+        </tr>
+        <tr>
+            <td><label for="password">Password</label></td>
+            <td>:</td>
+            <td><input type="password" name="password" id="password" placeholder="Password" required></td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td align="center" colspan="3" height="50px"><input type="submit"></td>
+        </tr>
+    </table>
+    
+    <br><br><hr><br>
+
+    <!-- registration -->
+
+    <table border="1">
+        <tr>
+            <td colspan="2" align="center"><h1>Registration Form</h1></td>
+        </tr>
+      <tr>
+        <td>Full Name:</td>
+        <td><input type="text" id="name" name="name" required></td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td><input type="email" id="email" name="email" required></td>
+      </tr>
+      <tr>
+        <td>Password:</td>
+        <td><input type="password" id="password" name="password" required></td>
+      </tr>
+      <tr>
+        <td>Confirm Password:</td>
+        <td><input type="password" id="confirm-password" name="confirm-password" required></td>
+      </tr>
+      <tr>
+        <td>Gender:</td>
+        <td>
+          <label><input type="radio" name="gender" value="male" required>Male</label>
+          <label><input type="radio" name="gender" value="female" required>Female</label>
+          <label><input type="radio" name="gender" value="other" required>Other</label>
+        </td>
+      </tr>
+      <tr>
+        <td>Country:</td>
+        <td>
+          <select id="country" name="country" required>
+            <option value="">--Select Country--</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="australia">Australia</option>
+          </select>
+        </td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td colspan="2" align="center" height="50px"><input type="submit" value="Register"></td>
+      </tr>
+    </table>    
+
+</body>
+
+</html>
